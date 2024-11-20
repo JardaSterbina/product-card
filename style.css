@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+}
+:root {
+  --primary-color: #ee1212;
+  --secondary-color: #7fcb5b61;
+  --tertiary-color: #fffa87;
+}
+
+.product-card {
+  box-sizing: border-box;
+  position: relative;
+  border: 1px solid #000;
+  width: 450px;
+  margin: 10px;
+}
+h1 {
+  padding: 10px;
+}
+.pc-info-text {
+  padding: 10px;
+  font-size: 14px;
+}
+.more-info {
+  color: #808080;
+  text-decoration: underline;
+}
+.price-box {
+  box-sizing: border-box;
+  position: relative;
+  background-color: #ee121240;
+  width: 450px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.price-text {
+  font-size: 24px;
+  font-weight: bold;
+  padding: 15px 0px 5px 25px;
+}
+.discount-1000-text {
+  font-weight: bold;
+  padding: 0px 0px 15px 25px;
+}
+.cart-button {
+  position: absolute;
+  background-color: #d9d9d9;
+  margin-top: 25px;
+  margin-left: 350px;
+  padding: 5px;
+  border-radius: 3px;
+}
+.post-box {
+  box-sizing: border-box;
+  position: relative;
+  background-color: var(--secondary-color);
+  width: 450px;
+  margin: 10px;
+  border-radius: 3px;
+}
+.post-box-text,
+.info-text {
+  color: #32840c;
+}
+.post-box-text {
+  padding: 15px 0px 15px 10px;
+  font-weight: bold;
+}
+.info-text {
+  position: absolute;
+  padding-left: 400px;
+  padding-bottom: 60;
+  font-weight: bold;
+  margin-top: 15px;
+  text-decoration: underline;
+}
+.bestseller-text {
+  background-color: var(--tertiary-color);
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: absolute;
+  padding: 2px 10px 2px 10px;
+  margin-top: 10px;
+}
+.product2023-text {
+  background-color: var(--primary-color);
+  color: white;
+  position: absolute;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  margin-top: 40px;
+  padding: 2px 10px 2px 15px;
+}
+.discount-text {
+  box-sizing: border-box;
+  background-color: var(--primary-color);
+  color: white;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  margin-top: 10px;
+  margin-left: 380px;
+  padding-top: 22px;
+  padding-left: 10px;
+}
+.product-image-container {
+  height: 350px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
